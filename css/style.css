@@ -1,0 +1,477 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+}
+
+.a_navbar{
+    width: 100%;
+    min-height: 70px;
+    background-color: #F4F5F7;
+    float: left;
+    margin-bottom: 20px;
+    
+}
+
+.a_background{
+    width: 100%;
+    min-height: 20px;
+    background: #F4F5F7;
+    float: left;
+}
+
+.Lside{
+    width: 20%;
+    min-height: inherit;
+    float: left;
+    padding: 10px 0px;   
+}
+
+.Rside{
+    width: 60%;
+    float: left;
+    min-height: inherit;
+    justify-content: center;
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+}
+
+.Rside ul{
+    padding: 0px;
+    margin: 0px;
+}
+
+.Rside ul li{
+    float: left;
+    list-style-type: none;
+    padding-left: 20px;
+    margin: 5px 15px;
+    font-family: 'Zilla Slab';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    
+
+}
+
+.Rside ul li a{
+    text-decoration: none;
+    margin-bottom: 10px;
+    color: #1F1F24;
+
+    
+}
+
+.Rside ul li a:hover{
+    border-bottom: 2px solid #27AE60;
+    transition: 0.3s;
+    margin-top: 5px;
+}
+
+
+.Rside::after {
+    content : "";
+    position : absolute;
+    width : 100%;
+    height: 2px;
+    background-color: #25347666;
+    left: 80px;
+  }
+
+.text_blue{
+    width: 20%;
+    float: left;
+    min-height: 60px;
+    background: #253476;
+    position: relative;
+    color: white;
+    
+}
+
+.text_blue p{
+    padding: 10px 12px;
+    width: 60%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+
+    font-family: 'Zilla Slab';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.center1 {
+    margin-top: 30px;
+    
+
+}
+
+.text1 {
+    float: left;
+    position: relative;
+}
+
+
+.text1 i {
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    color: white;
+}
+
+.text1  :hover {
+    color: #27AE60;
+    transition: 0.5s;
+}
+
+.text1 h1 {
+    float: left;
+    display: none;
+}
+
+.text2 {
+    float: left;
+}
+
+.text2 h1 {
+    font-family: 'Zilla Slab';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 43px;
+    color: #3E3E3E;
+    margin-left: 45px;
+    width: 70%;
+}
+
+.text2 h2 {
+    font-family: 'Zilla Slab';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    color: #1F1F24;
+    margin-left: 49px;
+    margin-top: 90px;
+    position: relative;
+}
+
+
+.text2 h2 span {
+    margin-left: 5px;
+    font-family: 'Zilla Slab';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #27AE60;
+}
+
+
+.text2 span {
+    font-family: 'Zilla Slab';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    color: #1F1F24;
+    margin-left: 49px;
+    margin-top: 50px;
+}
+
+.text2 ul {
+    margin-left: 70px;
+    margin-top: -37px;
+}
+
+.text2 ul li {
+    float: left;
+    list-style-type: none;
+    padding: 7px;
+}
+
+.telegram {
+    color: #27AE60;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.center2 {
+    margin-top: 50px;
+    padding: 20px;
+    float: left;
+    background: #F4F5F7;
+}
+
+.text3::after {
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 181px;
+    top: 20px;
+    left: 293px;
+    background-color: #D7D8DA;
+    
+}
+
+.text3 {
+    width: 30%;
+    position: relative;
+    float: left;
+    
+}
+
+.center2 {
+    margin-top: 40px;
+    padding: 15px;
+    float: left;
+}
+
+
+
+.center2 h1 {
+    font-family: 'Zilla Slab';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 80.88%;
+    display: flex;
+    align-items: center;
+    color: #3E3E3E;
+    margin-left: 20px;
+
+}
+
+.center2 ul {
+    padding: 0px;
+    margin: 0px;
+    margin-left: 20px;
+}
+
+.center2 ul li {
+    list-style-type: none;
+    font-family: 'Zilla Slab';
+    font-size: 17px;
+    /* font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 80.88%; */
+
+    display: flex;
+    align-items: center;
+
+    color: #3E3E3E;
+}
+
+.text4 {
+    width: 70%;
+    float: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.DigərReseptlər {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+    padding-bottom: 10px;
+}
+
+
+.DigərReseptlər span {
+    font-family: 'Zilla Slab';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #3E3E3E;
+    border-bottom: 3px solid #F4F5F7;
+
+
+}
+
+
+
+.DigərReseptlər a {
+    font-family: 'Zilla Slab';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration-line: underline;
+    color: #3E3E3E;
+}
+
+.DigərReseptlər a:hover {
+    color: #27AE60;
+    transition: 0.5s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.pictures {
+    margin-top: 20px;
+    width: 100%;
+    min-height: 207px;
+}
+
+.pictures img {
+    float: left;
+    width: 50%;
+}
+
+.pictures_info {
+    float: left;
+    width: 50%;
+
+    margin-top: 20px;
+    padding-left: 20px;
+    
+    justify-content: center;
+    display: block;
+    align-items: center;
+    
+}
+
+.pictures_info h1 {
+    font-family: 'Zilla Slab';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 19px;
+    color: #3E3E3E;
+    float: left;
+}
+
+.pictures_info p {
+    font-family: 'Zilla Slab';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    color: #858585;
+    opacity: 0.8;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    float: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .a_navbar{
+        padding: 0px;
+        margin: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        }
+
+    .Rside{
+        display: none;
+        }
+
+    .text_blue{
+        display: none;
+        }
+    
+    .food_png i{
+        display: none;
+         }
+    
+
+    }
+
+    .text1 img {
+        width: 100%;
+    }
+
+    .DigərReseptlər {
+        margin-left: 35px;
+    }
+
+
